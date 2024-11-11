@@ -1,0 +1,3 @@
+PyInstaller --onefile --icon app.ico .\asdSpectra.py
+
+PyInstaller --onefile -F --icon "app.ico" --add-data "C:/Users/wb8by/AppData/Local/Programs/Python/Python311/python.dll;."  .\asdSpectra.py 
